@@ -24,8 +24,8 @@ class PublicationController extends Controller
             'image_path' => 'required|string|max:355',
             'categorie' => 'required|string|max:255',
         ]);
-        $post = Publication::create($request->all());
-        return response()->json($post, 201);
+        $pub = Publication::create($request->all());
+        return response()->json($pub, 201);
     }
     public function show(Publication $pubs){
        
