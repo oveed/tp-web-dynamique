@@ -2,8 +2,8 @@
 
 Pour que le projet fonctionne correctement, veuillez supprimer le contenu de "index.css" et ajouter bootstrap dans "index.html":
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
-<pre> ```html <!-- Include Bootstrap CSS --> &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"&gt; ``` </pre>
+<pre> ```&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer&gt;&lt;/script&gt; ``` </pre>
+<pre> ``` &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"&gt; ``` </pre>
 
 Veuillez aussi installer axios et react-toastify
 
